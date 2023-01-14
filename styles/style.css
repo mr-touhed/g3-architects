@@ -250,14 +250,15 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 124px;
-  margin-top: 6.25rem;
+  margin-top: 4.25rem;
+  padding: 2rem;
 }
 .info--box {
   max-width: 241.83px;
   max-height: 241.83px;
   border: 1px solid #ff900e;
   border-radius: 8px;
-  padding: 45px 35px 23px;
+  padding: 35px 23px 28px;
 }
 .scale {
   display: flex;
@@ -283,6 +284,7 @@ body {
 }
 .info-details p {
   color: var(--light-dark);
+  font-weight: 600;
 }
 /* ::::::::::::::::::::::::::::::::::::
             some__facts end
