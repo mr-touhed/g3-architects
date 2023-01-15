@@ -433,9 +433,14 @@ button {
     margin-left: -1rem;
   }
   /* future and future info  */
+  
   .Features__section,
   .future__info {
     flex-direction: column;
+  }
+  
+  .futureInfo__list{
+    max-height: 100%;
   }
   .facts__info {
     gap: 1rem;
@@ -444,7 +449,7 @@ button {
     position: static;
   }
   .futureInfo--img {
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
   .facts__info,
   .sponspors__logos,
