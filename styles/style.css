@@ -402,6 +402,7 @@ body {
 }
 .footer--text p {
   margin: 0 auto;
+  text-align: center;
 }
 /* ::::::::::::::::::::::::::::::::::::
             Footer end
@@ -412,9 +413,6 @@ body {
 /* mobile responsive */
 
 @media screen and (max-width: 576px) {
-  .container {
-    padding-left: 1rem;
-  }
   /* top bar */
   .top__bar {
     margin: 0;
@@ -442,18 +440,26 @@ body {
   .future-info-btn {
     position: static;
   }
+  .futureInfo--img {
+    margin-top: 10rem;
+  }
   .facts__info,
   .sponspors__logos,
-  .team--members {
-    grid-template-columns: repeat(2, 1fr);
+  .team--members,
+  .future__Gallery {
+    grid-template-columns: 1fr;
+    margin-left: 0.6rem;
   }
+
   .sponspors__logos,
   .team--members {
     gap: 1rem;
+    padding-left: 2rem;
   }
   .sponspors {
     margin: 0;
   }
+
   .footer {
     padding: 0;
   }
